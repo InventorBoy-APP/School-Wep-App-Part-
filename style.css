@@ -1,0 +1,29 @@
+body{
+    background-color:skyblue;
+}
+#scrollingtext{
+    font-size:25px;
+    position:fixed;
+    top:50;
+    line-height: 3;
+    text-shadow: 3px 3px 3px #808080; 
+    color:limegreen;
+    background-color:deepskyblue;
+    width:100%;
+    font-family: 'Luckiest Guy', cursive;
+}
+#pic{
+    position:fixed;
+    width:1600px;
+    height:600px;
+    bottom:0;
+}
+div.scroll {
+    background-color: #fed9ff;
+    width: 600px;
+    height: 150px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+    padding: 20px;
+  }
